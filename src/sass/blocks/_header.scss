@@ -1,0 +1,33 @@
+.header {
+	position: fixed;
+	top:0; left:0; right:0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 9%;
+	background: $main-black;
+	
+	.logo {
+		font-weight: bolder;
+		color: $main-white;
+		font-size: 3rem;
+		text-decoration: none;
+		
+		span {
+			color: $main-red;
+		}
+	}
+
+	.navbar a {
+		display: inline-block;
+		padding: 1.5rem 2rem;
+		font-size: 1.7rem;
+		color: $main-white;
+		text-decoration: none;
+
+		&:hover {
+			background: $main-red;
+		}
+	}
+}
+

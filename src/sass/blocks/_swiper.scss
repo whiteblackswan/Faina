@@ -1,0 +1,13 @@
+.swiper-pagination-bullet{
+	height: 2rem;
+	width: 2rem;
+	background: $main-white;
+	border-radius: 0%;
+
+
+
+	
+	&.swiper-pagination-bullet-active{
+		background: $main-red;
+	}
+} 
