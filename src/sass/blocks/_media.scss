@@ -58,12 +58,10 @@
 	.about .content .title {
 	  font-size: 3rem;
 	}
-	.features .box-container .box.second {
-	  -webkit-box-orient: vertical;
-	  -webkit-box-direction: normal;
-			-ms-flex-flow: column;
-				 flex-flow: column;
-	}
+	body .features .box-container .box.second {
+				flex-flow: column;
+	 }
+	
  }
  
 
@@ -71,4 +69,5 @@
 	html{
 		font-size: 55%;
 	}
+	
 }
