@@ -27,24 +27,7 @@
 	padding: 5rem 9%;
  }
  
- .heading {
-	text-align: center;
-	margin-bottom: 3rem;
-	position: relative;
- }
- 
- .heading::before {
-	content: '';
-	position: absolute;
-	top: 50%;
-	left: 0;
-	-webkit-transform: translateY(-50%);
-			  transform: translateY(-50%);
-	height: .1rem;
-	width: 100%;
-	background: #aaa;
-	z-index: -1;
- }
+
  
  .heading span {
 	font-size: 3rem;
@@ -66,7 +49,11 @@
 @import 'blocks/slide';
 @import 'blocks/scroll';
 @import 'blocks/swiper';
-@import 'blocks/about';
+@import 'blocks/features';
+@import'blocks/about'
+
+
+
 
 
 
