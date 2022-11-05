@@ -1,0 +1,56 @@
+.trainers .box-container{
+	@include grid(29rem); 
+
+
+	.box{
+		height: 40rem;
+		overflow: hidden;
+		position: relative;
+
+		&:hover .content{
+			transform: translateY(0);
+		}
+	
+		img{
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+		
+		.content{
+			position: absolute;
+			bottom: 0; left: 0; right: 0;
+			background: $main-bg;
+			padding: .5rem;
+			transform: translateY(6.5rem);
+
+			span{
+				font-size: 1.5rem;
+				color: $main-red;
+			}
+
+			h3{
+				font-size: 2rem;
+				color: $main-white;
+				padding-top: .5rem;
+			}
+
+			.share{
+				padding-top: 2rem;
+				margin-top: 1.5rem ;
+				border-top: .1rem solid $main-light;
+
+				a{
+					font-size: 2rem;
+					color: $main-light;
+					margin-right: 1.5rem;
+					text-decoration: none;
+
+					&:hover{
+						color: $main-red;
+					}
+				}
+			}
+		}
+	}
+}
