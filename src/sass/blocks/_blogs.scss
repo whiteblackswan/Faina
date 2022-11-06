@@ -1,0 +1,59 @@
+.blogs{
+
+	.slider{
+		background: $main-bg;
+		margin-bottom: 7rem;
+
+		&:hover .image img{
+			transform: scale(1.1);
+		}
+
+		.image{
+			height: 25rem;
+			width: 100%;
+			overflow: hidden;
+
+			img{
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.content{
+			padding: 2rem;
+
+			.link{
+				padding-bottom: 1rem;
+				font-size: 1.5rem;
+
+				a{
+					color: $main-red;
+
+					&:hover{
+						color: $main-white;
+						text-decoration: none;	
+					}
+				}
+
+				span{
+					color: $main-white;
+					padding: 0 1rem;
+				}
+			}
+
+			h3{
+				font-size: 2rem;
+				color: $main-white;
+				line-height: 1.5;
+			}
+
+			p{
+				font-size: 1.5rem;
+				color: $main-light;
+				line-height: 2;
+				padding: 1rem 0;
+			}
+		}
+	}
+}
